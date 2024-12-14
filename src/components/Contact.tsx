@@ -34,7 +34,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
             <p className="text-lg text-slate-300">
-              I'm always open to new opportunities and collaborations. Whether you have a question or interested in working together, feel free to reach out.
+              I&apos;m always open to new opportunities and collaborations. Whether you have a question or interested in working together, feel free to reach out.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-3 text-zinc-400">

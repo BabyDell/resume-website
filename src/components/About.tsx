@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <main className="min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h1 className="text-5xl font-serif tracking-wide text-slate-200 mb-12">About Me</h1>
         
-        <section className="mb-16">
+        <section id="About" className="mb-16">
+        <h1 className="text-5xl font-serif tracking-wide text-slate-200 mb-12">About Me</h1>
+
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
             <Image
               src="/img/HeadShot.png"
@@ -31,7 +31,7 @@ export default function About() {
           </div>
         </section>
 
-        <section>
+        <section id="Skills">
           <h2 className="text-4xl font-serif tracking-wide text-slate-200 mb-8">Skills</h2>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -84,7 +84,6 @@ export default function About() {
           </div>
         </section>
       </div>
-    </main>
   );
 }
 

@@ -16,9 +16,15 @@ const projects: Project[] = [
     title: "Kiki's Restraunt",
     description:
       "A local restaurant aiming to attract more customers by boosting its online presence, showcasing menu items, offering online reservations, and building trust with high-quality photos of food and ambiance.",
-    tags: ["TypeScript", "Next.js", "Tailwind CSS", "OpenTable API", "Resend API"],
-    githubUrl: "https://github.com/yourusername/project1",
-    websiteUrl: "https://project1.com",
+    tags: [
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "OpenTable API",
+      "Resend API",
+    ],
+    githubUrl: "https://github.com/BabyDell/Kikis-Restaurant",
+    websiteUrl: "https://kikis-restaurant.vercel.app/",
     imageUrl: "/img/ProjectKiki.jpg",
   },
   {
@@ -26,29 +32,29 @@ const projects: Project[] = [
     description:
       "Luxury Real Estate website to build online presence and branding, increase client engagement, showcase listings, and educational content",
     tags: ["TypeScript", "Next.js", "Tailwind CSS", "Spark API"],
-    githubUrl: "https://github.com/yourusername/project2",
-    websiteUrl: "https://project2.com",
+    githubUrl: "https://github.com/BabyDell/newMGWebSite",
+    websiteUrl: "https://new-mg-website.vercel.app/",
     imageUrl: "/img/ProjectMaria.jpg",
   },
   {
-    title: "Dietitian website",
+    title: "Personal Blog",
     description:
-      "A dietitian’s website aimed at attracting more clients by showcasing services, offering nutrition advice, and providing easy access to booking consultations, all while building trust with educational content and a professional design.",
+      "Personal blog to share my thoughts, experiences, and projects. Uses md files to create blog or case studies posts, a template for it,  and Next.js to render them.",
     tags: ["TypeScript", "Next.js", "Tailwind"],
-    githubUrl: "https://github.com/yourusername/project2",
-    websiteUrl: "https://project2.com",
-    imageUrl: "/img/ProjectRubi.jpg",
+    githubUrl: "https://github.com/BabyDell/personal-blog",
+    websiteUrl: "https://andy-felix-personal-blog.vercel.app/",
+    imageUrl: "/img/ProjectBlog.jpg",
   },
 ];
 
 export default function Projects() {
   return (
     <section className="py-16 w-full">
-      <div className="max-w-7xl w-full sm:mx-auto mx-5">
-        <h2 className="text-4xl tracking-wide text-slate-200 mb-10 font-Playfair_Display font-semibold">
+      <div className="max-w-7xl w-full sm:mx-auto">
+        <h2 className="text-4xl tracking-wide text-slate-200 mb-10 font-Playfair_Display font-semibold ml-10">
           Projects
         </h2>
-        <div className="space-y-16">
+        <div className="space-y-16 mx-5">
           {projects.map((project, index) => (
             <div
               key={index}

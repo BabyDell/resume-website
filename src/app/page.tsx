@@ -5,9 +5,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main >
+    <main>
       {/* <Meteors number={10}/> */}
-      <section id="Home" className="min-h-dvh w-full flex items-center justify-center">
+      <section
+        id="Home"
+        className="min-h-dvh w-full flex items-center justify-center"
+      >
         <div className="max-w-6xl w-full flex flex-col md:flex-row sm:mx-10 mx-5 mt-10">
           <div className=" md:w-[60%] mt-10 ml-10  mx-auto ">
             <div className="w-fit">
@@ -22,11 +25,16 @@ export default function Home() {
               </span>
             </h1>
             <h1 className="inline-block text-4xl sm:text-5xl md:text-6xl font-serif tracking-wider text-white mt-2">
-              a Software Engineer
+              a Full Stack <br /> Developer
             </h1>
-            <p className="inline-block text-2xl sm:text-3xl md:text-4xl font-serif tracking-wide text-slate-200 mt-5">
-              currently building user experiences
-              <br /> that drive growth
+            <p className="mt-3">
+              <span className="inline-block text-2xl sm:text-3xl md:text-4xl font-serif tracking-wide text-slate-200">
+                currently building user experiences
+              </span>
+              <br />
+              <span className="inline-block text-2xl sm:text-3xl md:text-4xl font-serif tracking-wide text-slate-200 mt-2">
+                that drive growth
+              </span>
             </p>
           </div>
           <div className="md:w-[40%] flex items-center justify-center">

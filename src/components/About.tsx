@@ -39,14 +39,12 @@ export default function About() {
               <h3 className="text-2xl font-serif tracking-wide text-zinc-400 mb-4">Frontend Skills</h3>
               <ul className="list-disc list-inside text-slate-300 space-y-2">
                 <li>HTML5 and CSS3 (flexbox, grid, media queries)</li>
-                <li>Responsive design principles (mobile-first design)</li>
+                <li>Responsive design</li>
                 <li>Tailwind CSS</li>
-                <li>CSS preprocessors (SASS/SCSS)</li>
-                <li>Modern JavaScript (ES6+)</li>
-                <li>Asynchronous JavaScript (Promises, async/await)</li>
-                <li>DOM manipulation and event handling</li>
-                <li>React (hooks, JSX, component-based architecture)</li>
-                <li>State management (React Context API)</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React (State Managment) </li>
+                <li>PhotoShop</li>
+                <li>NEXT.JS</li>
               </ul>
             </div>
 
@@ -56,7 +54,8 @@ export default function About() {
                 <li>Node.js</li>
                 <li>RESTful API design and implementation</li>
                 <li>Server-side rendering</li>
-                <li>Authentication and authorization</li>
+                <li>Authentication and authorization using OAuth 2.0, JWT</li>
+                <li>Database Management (Prisma, PostgreSQL)</li>
               </ul>
             </div>
 
@@ -77,8 +76,8 @@ export default function About() {
                 <li>Strong problem-solving abilities</li>
                 <li>Excellent communication skills</li>
                 <li>Team collaboration and leadership</li>
-                <li>Agile methodologies</li>
-                <li>Continuous learning and adaptability</li>
+                <li>Time management and organization</li>
+                <li>If I don&apos;t know I will learn it mentality</li>
               </ul>
             </div>
           </div>

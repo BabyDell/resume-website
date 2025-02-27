@@ -13,6 +13,25 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Desert Culture Magazine",
+    description:
+      "A Luxury Magazine website that showcases articles about the latest trends in fashion, beauty, and lifestyle. Tied to subscriptions, offering exculsive content to members.",
+    tags: ["User Authentification", "Prisma", "Postgres", "Next.js"],
+    githubUrl: "https://github.com/BabyDell/DesertCulture",
+    websiteUrl: "https://desert-culture-five.vercel.app/",
+    imageUrl: "/img/ProjectDC.jpg",
+  },
+  {
+    title: "Personal Blog",
+    description:
+      "Personal blog to share my thoughts, experiences, and projects. Uses md files to create blog or case studies posts, a template for it,  and Next.js to render them.",
+    tags: ["TypeScript", "Next.js", "Tailwind"],
+    githubUrl: "https://github.com/BabyDell/personal-blog",
+    websiteUrl: "https://andy-felix-personal-blog.vercel.app/",
+    imageUrl: "/img/ProjectBlog.jpg",
+  },
+
+  {
     title: "Kiki's Restraunt",
     description:
       "A local restaurant aiming to attract more customers by boosting its online presence, showcasing menu items, offering online reservations, and building trust with high-quality photos of food and ambiance.",
@@ -28,22 +47,13 @@ const projects: Project[] = [
     imageUrl: "/img/ProjectKiki.jpg",
   },
   {
-    title: "Real Estate Agent Website",
+    title: "Vision Quest",
     description:
-      "Luxury Real Estate website to build online presence and branding, increase client engagement, showcase listings, and educational content",
-    tags: ["TypeScript", "Next.js", "Tailwind CSS", "Spark API"],
-    githubUrl: "https://github.com/BabyDell/newMGWebSite",
-    websiteUrl: "https://new-mg-website.vercel.app/",
-    imageUrl: "/img/ProjectMaria.jpg",
-  },
-  {
-    title: "Personal Blog",
-    description:
-      "Personal blog to share my thoughts, experiences, and projects. Uses md files to create blog or case studies posts, a template for it,  and Next.js to render them.",
-    tags: ["TypeScript", "Next.js", "Tailwind"],
-    githubUrl: "https://github.com/BabyDell/personal-blog",
-    websiteUrl: "https://andy-felix-personal-blog.vercel.app/",
-    imageUrl: "/img/ProjectBlog.jpg",
+      "An app that helps users set financial goals by calculating how much they need to earn to afford a home or car, and shows what they can afford based on their current income.",
+    tags: ["TypeScript", "Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    githubUrl: "https://github.com/BabyDell/vision-quest",
+    websiteUrl: "https://vision-quest.vercel.app/",
+    imageUrl: "/img/ProjectVisionQuest.jpg",
   },
 ];
 

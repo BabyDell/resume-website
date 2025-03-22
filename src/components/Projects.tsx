@@ -13,10 +13,19 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "LearnDaily",
+    description:
+      "A Social Media platform that allows users to share questions, facts, or lessons to other users. Users can upvote or downvote posts, as well as follow other users.",
+    tags: ["User Authentification", "Prisma", "PostgreSQL", "Next.js", "Session Management", "Tailwind CSS", "TypeScript"],
+    githubUrl: "https://github.com/BabyDell/growth-app",
+    websiteUrl: "https://growth-app-kohl.vercel.app/",
+    imageUrl: "/img/ProjectLearn.jpg",
+  },
+  {
     title: "Desert Culture Magazine",
     description:
       "A Luxury Magazine website that showcases articles about the latest trends in fashion, beauty, and lifestyle. Tied to subscriptions, offering exculsive content to members.",
-    tags: ["User Authentification", "Prisma", "Postgres", "Next.js"],
+    tags: ["User Authentification", "Prisma", "PostgreSQL", "Next.js", "TypeScript"],
     githubUrl: "https://github.com/BabyDell/DesertCulture",
     websiteUrl: "https://desert-culture-five.vercel.app/",
     imageUrl: "/img/ProjectDC.jpg",
@@ -76,8 +85,8 @@ export default function Projects() {
                     <Image
                       src={project.imageUrl}
                       alt={project.title}
-                      width={500}
-                      height={300}
+                      width={1000}
+                      height={800}
                       className="w-full h-full object-cover"
                     />
                   </div>
